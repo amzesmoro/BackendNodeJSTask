@@ -32,3 +32,12 @@ module.exports = {
 ```diff
     npm start
 ```
+
+
+### Endpoint
+
+```diff
+    -- /search --> ex: /search?s=ragnarok&apikey=<YOUR API KEY>&type=series
+    -- /detail --> ex: /detail?i=tt8499594&apikey=<YOUR API KEY>
+    -- /get-logs --> ex: /get-logs?page=1
+```
