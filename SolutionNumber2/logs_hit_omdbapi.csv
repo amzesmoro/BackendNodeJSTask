@@ -1,0 +1,16 @@
+id,url,api_endpoint,parameters,created_at
+1,localhost:8001,/search,"{'"s'":'"aladin'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:24:48+07
+2,localhost:8001,/search,"{'"s'":'"star'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:25:11+07
+3,localhost:8001,/search,"{'"s'":'"batman'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:25:18+07
+4,localhost:8001,/search,"{'"s'":'"warkop'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:25:31+07
+5,localhost:8001,/search,"{'"s'":'"dua garis'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:25:45+07
+6,localhost:8001,/search,"{'"s'":'"susah sinyal'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:25:56+07
+7,localhost:8001,/search,"{'"s'":'"doraemon'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:26:05+07
+8,localhost:8001,/search,"{'"s'":'"fast furios'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:26:22+07
+9,localhost:8001,/search,"{'"s'":'"fast'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:26:31+07
+10,localhost:8001,/detail,"{'"i'":'"tt1905041'",'"apikey'":'"f2cc6ad7'"}",2021-06-13 02:26:46+07
+11,localhost:8001,/search,"{'"s'":'"love'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:27:30+07
+12,localhost:8001,/detail,"{'"i'":'"tt1570728'",'"apikey'":'"f2cc6ad7'"}",2021-06-13 02:27:39+07
+13,localhost:8001,/detail,"{'"i'":'"tt0431308'",'"apikey'":'"f2cc6ad7'"}",2021-06-13 02:27:48+07
+14,localhost:8001,/search,"{'"s'":'"football'",'"apikey'":'"f2cc6ad7'",'"type'":'"movie'"}",2021-06-13 02:27:59+07
+15,localhost:8001,/detail,"{'"i'":'"tt8551848'",'"apikey'":'"f2cc6ad7'"}",2021-06-13 02:28:13+07

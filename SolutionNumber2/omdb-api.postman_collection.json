@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "ce6c7c81-6e0f-4ef0-ade7-00608ab4ec59",
+		"name": "omdb-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SEARCH MOVIE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/search?s=football&apikey=f2cc6ad7&type=movie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "s",
+							"value": "football"
+						},
+						{
+							"key": "apikey",
+							"value": "f2cc6ad7"
+						},
+						{
+							"key": "y",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "movie"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DETAIL MOVIE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/detail?i=tt8551848&apikey=f2cc6ad7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"detail"
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "tt8551848"
+						},
+						{
+							"key": "apikey",
+							"value": "f2cc6ad7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET LOGS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/get-logs?page=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"get-logs"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

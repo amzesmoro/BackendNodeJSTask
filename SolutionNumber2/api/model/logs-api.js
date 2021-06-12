@@ -8,7 +8,7 @@ module.exports = (sequelize, type) => {
         url: type.STRING,
         api_endpoint: type.STRING,
         parameters: {
-            type: type.JSONB,
+            type: type.JSON,
             allowNull: false,
             validate: {
                 notNull: true,
