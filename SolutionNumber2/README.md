@@ -6,24 +6,20 @@ File directory:
 ```diff
     -- api
     -- config
+    -- -- config.js
     -- app.js
-    -- nodemon.json
     -- package.json
     -- server.js
 ```
 
-Example configuration. Add file with name: **nodemon.json** to root directory
+Example configuration. Add file '.js' with name: **config.js** to folder config.
 ```diff
-{
-    "env":{
-        "APP_URL"   : "<YOUR APP URL>", // http://localhost:8001
-        "DB_HOST"   : "<YOUR DB HOST>", // localhost ot 127.0.0.1
-        "DB_PORT"   : "<YOUR DB PORT>", // 5432
-        "DB_NAME"   : "<YOUR DB NAME>", // postgres
-        "DB_USER"   : "<YOUR DB USERNAME>", // postgres
-        "DB_PWD"    : "<YOUR DB PASSWORD>", // postgres
-        "POSTGRESQL_CONNECTION" : "<YOUR CONNECTIONS URL POSTGRESS>" //postgres://postgres:postgres@127.0.0.1:5432/postgres
-    }
+module.exports = {
+    port: <YOUR_POT>, // 8001
+    dbConnectionString: '<YOUR CONNECTIONS URL POSTGRES>', // 'postgres://postgres:postgres@127.0.0.1:5432/postgres'
+    // OMDB API
+    API_URL: '<OMDB URL>' // 'http://www.omdbapi.com/',
+    API_KEY: '<<YOUR API KEY>>'
 }
 ```
 

@@ -19,3 +19,8 @@ Didalam file **SolutionNumber1.sql** , saya telah melampirkan solusi untuk case 
 ## Solution Number 3
 ### Refactor Code
 Di dalam soal ini terdapat sebuah fungsi **findFirstStringInBracket(str)** yang memiliki satu parameter yaitu "str". Perintah dalam soal ini adalah melakukan *refactor code* agar *code* menjadi lebih ringkas, efisien, mudah dibaca dengan logika yang baik. Di file **SolutionNumber3.js** saya telah memberikan sebuah solusi yang menurut saya sudah lebih ringkas, efisien dan mudah dibaca. Didalam file .js tersebut terdapat *Before* dan *After code*. Saya mengubah *code* dengan memecahnya menjadi sebuah *function*. Jika ingin menggunakan *function* tersebut, tinggal menggunakannya saja. Terdapat juga beberapa *Sample Test Cases*. Untuk menjalankan *function* tersebut, saya menggunakan *Web Browser Chrome* dengan mengaktifkan *Developer tools*. Saya menjalankannya di *Tab Console*. Namun untuk beberapa case seperti: "((amzesmoro))" atau yang memiliki *kurung ganda* belum dapat di*cover* menggunakan fungsi ini, karena tujuan awalnya adalah hanya *refactor code* dengan *code* yang ada.
+
+
+## Solution Number 2
+### Create a Small ExpressJS 
+Untuk solusi soal nomor 2 dapat dilihat pada folder **SolutionNumber2**, terdapat juga *README.md* untuk mengetahui struktur proyek, config dan cara instalasi proyek.
