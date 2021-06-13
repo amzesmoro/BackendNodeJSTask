@@ -10,6 +10,8 @@ File directory:
     -- app.js
     -- package.json
     -- server.js
+    -- logs_hit_omdbapi.csv
+    -- omdb-api.postman_collection.json
 ```
 
 Example configuration. Add file '.js' with name: **config.js** to folder config.
@@ -41,3 +43,8 @@ module.exports = {
     -- /detail --> ex: /detail?i=tt8499594&apikey=<YOUR API KEY>
     -- /get-logs --> ex: /get-logs?page=1
 ```
+
+
+Didalam root direktory terdapat file *logs_hit_omdbapi.csv* dan *omdb-api.postman_collection.json*.
+* logs_hit_omdbapi.csv adalah database yang saya export dari PostgreSQL dalam bentuk .csv. Attribut/Properti yang saya gunakan adalah **id,url,api_endpoint,parameters,created_at**. Untuk lebih jelas dapat dilihat pada file tersebut.
+* omdb-api.postman_collection.json adalah *collection endpoint* collection yang saya gunakan di Postman untuk menguji endpoint yang saya buat. Untuk lebih jelas dapat dilihat dan di uji menggunakan Postman.
