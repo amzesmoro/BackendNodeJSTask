@@ -24,3 +24,6 @@ Di dalam soal ini terdapat sebuah fungsi **findFirstStringInBracket(str)** yang 
 ## Solution Number 2
 ### Create a Small ExpressJS 
 Untuk solusi soal nomor 2 dapat dilihat pada folder **SolutionNumber2**, terdapat juga *README.md* untuk mengetahui struktur proyek, config dan cara instalasi proyek.
+
+## Solution Number 4
+Untuk solusi array anagram dapat di lihat di **SolutionNumber4.js**. Hasil akhir dari angram tersebut adalah grouping dalam bentuk array. 
